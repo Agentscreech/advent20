@@ -1,6 +1,6 @@
 #!python3
 from helpers.read_lines import *
-from typing import List
+from typing import List, Dict
 input = read_line_input("day7")
 
 #Sample 1
@@ -48,7 +48,7 @@ def find_bag(target_bag:str) -> List:
                 holders.append(bag)
     return holders
 
-def contain_shiny(bag_list):
+def contain_shiny(bag_list:List):
     for b in bag_list:
         if b in parsed_bags:
             continue
@@ -56,7 +56,7 @@ def contain_shiny(bag_list):
         parsed_bags.append(b)
         contain_shiny(out)
 
-def bag_count(bag):
+def bag_count(bag:Dict) -> int:
     i = 0
     if len(bag) == 0:
         return 0
