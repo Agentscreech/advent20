@@ -65,7 +65,7 @@ def p2():
     target = 27911108
     pos = 0
     while pos < len(numbers):
-        queue = collections.deque()
+        queue = []
         q_pos = pos
         while sum(queue) < target:
             queue.append(numbers[q_pos])
