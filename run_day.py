@@ -23,4 +23,6 @@ import day7.day7 as d7
 import day8.day8 as d8
 # d8.run()
 import day9.day9 as d9
-d9.run()
+# d9.run()
+import day10.day10 as d10
+d10.p2()
