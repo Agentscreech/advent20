@@ -35,5 +35,7 @@ import day12.day12_2 as d12_2
 import day13.day13 as d13
 # d13.p2()
 import day14.day14 as d14
-d14.p1()
-d14.run()
+# d14.p1()
+# d14.run()
+import day15.day15 as d15
+d15.p1()
