@@ -40,4 +40,8 @@ import day14.day14 as d14
 import day15.day15 as d15
 # d15.p1()
 import day16.day16 as d16
-d16.p2()
+# d16.p2()
+# import day17.day17 as d17
+# d17.p1()
+import day18.day18 as d18
+d18.p2()

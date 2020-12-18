@@ -3,7 +3,7 @@ import copy
 from collections import deque
 from os import remove
 from helpers.read_lines import *
-from typing import List, Tuple, Dict, final
+from typing import List, Tuple, Dict
 input = read_line_input("day16")
 
 def parse_input(input):
